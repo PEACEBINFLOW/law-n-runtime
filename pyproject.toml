@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "law-n-runtime"
+version = "0.1.0"
+description = "LAW-N Runtime Environment (LNRE) — execution engine for LAW-N and N-SQL."
+authors = [
+  { name = "Peace Thabiwa", email = "youremail@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/PEACEBINFLOW/law-n-runtime"
+Source = "https://github.com/PEACEBINFLOW/law-n-runtime"
