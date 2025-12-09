@@ -1,0 +1,5 @@
+# hello_lawn.ln
+signal.open @channel(main)
+time.wait 1ms
+nsql.exec { SELECT 'hello-law-n' }
+signal.close @channel(main)
