@@ -1,0 +1,2 @@
+# nsql_sample.ln
+nsql.exec { SELECT channel, load FROM flow:channels WHERE t BETWEEN now-1000 AND now }
