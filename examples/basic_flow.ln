@@ -1,0 +1,5 @@
+# basic_flow.ln
+signal.open @channel(1)
+time.wait 4ms
+nsql.exec { SELECT * FROM flow:events WHERE t > now-200 }
+signal.close @channel(1)
